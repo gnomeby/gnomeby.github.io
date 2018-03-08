@@ -7,7 +7,7 @@ body {
 }
 
 @media print {
-	.no-print, .language-block {
+	.no-print {
 		display: none;
 	}
 	.experience, .new-page {
@@ -62,22 +62,11 @@ a.local-link:link {
 	background-color: white;
 }
 
-.language-block {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0.5em;
-
-  font-size: 0.8em;
-  text-align: right;
-}
 .general {
   float: left;
   width: 60%;
 }
 
-.language-en .general {
-	width: 56%;
-}
 .thumb {
   margin-bottom: 20px;
   width: 250px;
@@ -99,9 +88,6 @@ a.local-link:link {
 	padding: 1em 0.5em;
 
   float: left;
-}
-.language-en .certificate {
-	height: 100px;
 }
 .clear-both {
 	clear: both;
@@ -151,9 +137,6 @@ a.local-link:link {
 }
 .right {
 	float: right;
-}
-.language-en .social {
-	width: 36%;
 }
 
 .contact-list {
