@@ -10,7 +10,7 @@ body {
 	.no-print {
 		display: none;
 	}
-	.experience, .new-page {
+	.new-page {
 		page-break-before: always;
 	}
 }
