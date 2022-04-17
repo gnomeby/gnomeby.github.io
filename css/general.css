@@ -38,6 +38,9 @@ ul li, span, td, th, p  {
 ul {
 	margin: 0;
 }
+li {
+    list-style-type: square;
+}
 img {
 	border-width: 0;
 }
