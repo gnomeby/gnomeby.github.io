@@ -92,6 +92,9 @@ a.local-link:link {
 .clear-both {
 	clear: both;
 }
+.experience {
+	clear: both;
+}
 
 .technologies, .descriptions {
 	border-collapse: collapse;
